@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width,initial-scale=1" name="viewport"/>
+    <meta content="Research on massive/XL-MIMO detection, IRS-assisted communications, and randomized tensor decomposition." name="description"/>
+    <meta content="#164f78" name="theme-color"/>
+    <title>Research | Gopal Sai Krishna Chamarthi</title>
+    <link href="assets/images/favicon.svg" rel="icon" type="image/svg+xml"/>
+    <link href="assets/css/custom.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <a class="skip" href="#main-content">Skip to content</a>
+    <div class="shell">
+      <aside class="sidebar" id="sidebar">
+        <a class="brand" href="index.html">Gopal Sai Krishna Chamarthi<small>Signal Processing · Wireless Comm. · 5G/6G Comm.</small></a>
+        <div class="side-rule"></div>
+        <nav aria-label="Main navigation">
+          <a href="index.html"><span aria-hidden="true">⌂</span>Home</a>
+          <a href="about.html"><span aria-hidden="true">○</span>About</a>
+          <a aria-current="page" href="research.html"><span aria-hidden="true">◇</span>Research</a>
+          <a href="publications.html"><span aria-hidden="true">▤</span>Publications</a>
+          <a href="news.html"><span aria-hidden="true">▦</span>News &amp; Updates</a>
+          <a href="academic.html"><span aria-hidden="true">✧</span>Academic Activities</a>
+          <a href="contact.html"><span aria-hidden="true">✉</span>Contact</a>
+        </nav>
+        <div class="side-bottom">
+          <p><strong>Academic Profile</strong><br/>M.S. + Ph.D. - SCEE, IIT Mandi (Thesis Defended)</p>
+          <p><a download="" href="assets/documents/Gopal_CV.pdf">Download CV</a></p>
+        </div>
+      </aside>
+      <main class="main" id="main-content">
+        <div class="content">
+          <header class="topbar">
+            <div style="display:flex;align-items:center;gap:1rem">
+              <button aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation" class="menu-btn" data-menu-toggle="" type="button">☰</button>
+              <span class="eyebrow">Research</span>
+            </div>
+            <div class="top-links">
+              <a href="assets/documents/Gopal_CV.pdf" rel="noopener" target="_blank">CV ↗</a>
+              <a href="publications.html">Publications</a>
+              <a href="mailto:gopalsk43@gmail.com">Email</a>
+            </div>
+          </header>
+          <header class="page-intro">
+            <h1>Research directions</h1>
+          </header>
+          <!-- Direction 1: massive MIMO poster -->
+          <article class="research-block" id="mimo">
+            <span class="topic-tag">Research direction 01</span>
+            <h2>Scalable Detection for Massive/XL-MIMO Networks</h2>
+            <p>Massive multiple-input multiple-output (MIMO) systems offer substantial spectral-efficiency and connectivity advantages, but conventional multi-user detection can incur significant computational costs as the number of antennas grows. My research investigates randomized projection and sampling-based techniques to reduce the computational burden of detection while retaining competitive error-rate performance.</p>
+            <p>The developed algorithms exploit randomized matrix computations and multilinear signal structure, with theoretical analysis including closed-form symbol error probability expressions and probabilistic accuracy guarantees for selected methods. This line of work encompasses random-projection detectors for uplink massive MIMO and structured Kronecker random-projection techniques for XL-MIMO.</p>
+            <figure class="poster-preview">
+              <a aria-label="View the complete massive MIMO detection research poster in a new tab" href="assets/documents/Massive_MIMO_Research_Poster.pdf" rel="noopener noreferrer" target="_blank"><img alt="Original research poster on random-projection-based massive MIMO detection" loading="lazy" src="assets/images/mimo-poster-preview.webp"/></a>
+              <figcaption><span>Random-projection-based massive MIMO detection</span><a href="assets/documents/Massive_MIMO_Research_Poster.pdf" rel="noopener noreferrer" target="_blank">Open full poster (PDF) ↗</a></figcaption>
+            </figure>
+            <h3>Representative contributions</h3>
+            <ul>
+              <li>Projection- and sampling-based low-complexity multi-user detection.</li>
+              <li>Analytical symbol error probability characterization and accuracy analysis.</li>
+              <li>Structure-aware randomized computations for massive/XL-MIMO systems.</li>
+            </ul>
+            <p><strong>Outcomes:</strong> <a href="publications.html#j1">J1</a>, <a href="publications.html#c3">C3</a>, <a href="publications.html#c4">C4</a>, <a href="publications.html#c5">C5</a>.</p>
+          </article>
+          <!-- Direction 2: four-slide IRS carousel -->
+          <article class="research-block" id="irs">
+            <span class="topic-tag">Research direction 02</span>
+            <h2>Channel Estimation and Data Detection in IRS-Assisted Networks</h2>
+            <p>Intelligent reflecting surfaces (IRS) offer additional degrees of freedom for wireless communications while creating computational challenges in channel estimation and data detection, particularly in large antenna and surface configurations. My research develops structured formulations and sampling-based algorithms for IRS-assisted massive/XL-MIMO networks.</p>
+            <p>For channel estimation, the work exploits multilinear structure to accelerate iterative estimation relative to conventional alternating least-squares approaches. For semi-blind data detection, sampling-based updates reduce the complexity of baseline detectors while using limited pilot information and preserving comparable detection accuracy in the studied settings.</p>
+            <section aria-label="IRS-assisted networks: selected presentation slides" class="research-slides">
+              <div class="research-slides-head">
+                <h3>Selected defence seminar slides</h3>
+                <span class="slides-hint">Click an image to enlarge</span>
+              </div>
+              <div class="slide-carousel" data-carousel="">
+                <div class="carousel-stage">
+                  <figure class="carousel-slide" data-slide-index="0">
+                    <a aria-label="Open full-size slide: Structured channel estimation: overview and KPS-CE" href="assets/images/research-slides/irs-01.webp" rel="noopener noreferrer" target="_blank"><img alt="Structured channel estimation: overview and KPS-CE" loading="lazy" src="assets/images/research-slides/irs-01.webp"/></a>
+                    <figcaption>Structured channel estimation: overview and KPS-CE<a href="assets/images/research-slides/irs-01.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="1">
+                    <a aria-label="Open full-size slide: Semi-blind detection at scale" href="assets/images/research-slides/irs-02.webp" rel="noopener noreferrer" target="_blank"><img alt="Semi-blind detection at scale" loading="lazy" src="assets/images/research-slides/irs-02.webp"/></a>
+                    <figcaption>Semi-blind detection at scale<a href="assets/images/research-slides/irs-02.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="2">
+                    <a aria-label="Open full-size slide: Leverage-based sampled updates" href="assets/images/research-slides/irs-03.webp" rel="noopener noreferrer" target="_blank"><img alt="Leverage-based sampled updates" loading="lazy" src="assets/images/research-slides/irs-03.webp"/></a>
+                    <figcaption>Leverage-based sampled updates<a href="assets/images/research-slides/irs-03.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="3">
+                    <a aria-label="Open full-size slide: Detection accuracy and measured runtime" href="assets/images/research-slides/irs-04.webp" rel="noopener noreferrer" target="_blank"><img alt="Detection accuracy and measured runtime" loading="lazy" src="assets/images/research-slides/irs-04.webp"/></a>
+                    <figcaption>Detection accuracy and measured runtime<a href="assets/images/research-slides/irs-04.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                </div>
+                <div class="carousel-toolbar">
+                  <button aria-label="Previous slide" class="carousel-nav" data-carousel-prev="" type="button">‹ <span>Previous</span></button>
+                  <div aria-label="Select slide" class="carousel-pips" role="group">
+                    <button aria-label="Show slide 1: Overview and KPS-CE" class="carousel-pip" data-slide-to="0" type="button"></button>
+                    <button aria-label="Show slide 2: Semi-blind motivation" class="carousel-pip" data-slide-to="1" type="button"></button>
+                    <button aria-label="Show slide 3: Leverage-based updates" class="carousel-pip" data-slide-to="2" type="button"></button>
+                    <button aria-label="Show slide 4: SER and runtime" class="carousel-pip" data-slide-to="3" type="button"></button>
+                  </div>
+                  <span aria-live="polite" class="carousel-position" data-carousel-position="">1 / 4</span>
+                  <button aria-label="Next slide" class="carousel-nav" data-carousel-next="" type="button"><span>Next</span> ›</button>
+                </div>
+              </div>
+            </section>
+            <h3>Representative contributions</h3>
+            <ul>
+              <li>Structured iterative channel estimation for IRS-assisted XL-MIMO.</li>
+              <li>Sampling-based least-squares updates to reduce computational cost.</li>
+              <li>Low-pilot-overhead semi-blind detection in IRS-assisted massive MIMO.</li>
+            </ul>
+            <p><strong>Outcomes:</strong> <a href="publications.html#c2">C2</a>, <a href="https://doi.org/10.1109/VTC2026-Spring68026.2026.11757229" rel="noopener noreferrer" target="_blank">DOI ↗</a>, <a href="publications.html#m3">M3</a>.</p>
+          </article>
+          <!-- Direction 3: tensor methods carousel -->
+          <article class="research-block" id="tensors">
+            <span class="topic-tag">Research direction 03</span>
+            <h2>Scalable Randomized CP and Tucker Decomposition Algorithms</h2>
+            <p>Tensor decomposition enables analysis of multidimensional data but is often computationally demanding at scale. My research develops randomized alternating least-squares algorithms for CP and Tucker decompositions by exploiting the Khatri–Rao and Kronecker structure in their least-squares subproblems.</p>
+            <p>The proposed volume-sampling approaches support unbiased estimation properties for selected least-squares updates, offer theoretical approximation guarantees, and demonstrate favorable empirical runtime–accuracy trade-offs against competing randomized methods, particularly at smaller sample sizes. The work also considers benefits for model averaging.</p>
+            <section aria-label="Randomized tensor methods: selected presentation slides" class="research-slides">
+              <div class="research-slides-head">
+                <h3>Selected slides</h3>
+                <span class="slides-hint">Click an image to enlarge</span>
+              </div>
+              <div class="slide-carousel" data-carousel="">
+                <div class="carousel-stage">
+                  <figure class="carousel-slide" data-slide-index="0">
+                    <a aria-label="Open full-size slide: Tucker decomposition: core and factor matrices" href="assets/images/research-slides/tensors-01.webp" rel="noopener noreferrer" target="_blank"><img alt="Tucker decomposition: core and factor matrices" loading="lazy" src="assets/images/research-slides/tensors-01.webp"/></a>
+                    <figcaption>Tucker decomposition: core and factor matrices<a href="assets/images/research-slides/tensors-01.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="1">
+                    <a aria-label="Open full-size slide: Fast Tucker decomposition via RKVS" href="assets/images/research-slides/tensors-02.webp" rel="noopener noreferrer" target="_blank"><img alt="Fast Tucker decomposition via RKVS" loading="lazy" src="assets/images/research-slides/tensors-02.webp"/></a>
+                    <figcaption>Fast Tucker decomposition via RKVS<a href="assets/images/research-slides/tensors-02.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="2">
+                    <a aria-label="Open full-size slide: Tucker decomposition accuracy comparison" href="assets/images/research-slides/tensors-03.webp" rel="noopener noreferrer" target="_blank"><img alt="Tucker decomposition accuracy comparison" loading="lazy" src="assets/images/research-slides/tensors-03.webp"/></a>
+                    <figcaption>Tucker decomposition accuracy comparison<a href="assets/images/research-slides/tensors-03.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="3">
+                    <a aria-label="Open full-size slide: Canonical polyadic (CP) decomposition" href="assets/images/research-slides/tensors-04.webp" rel="noopener noreferrer" target="_blank"><img alt="Canonical polyadic (CP) decomposition" loading="lazy" src="assets/images/research-slides/tensors-04.webp"/></a>
+                    <figcaption>Canonical polyadic (CP) decomposition<a href="assets/images/research-slides/tensors-04.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="4">
+                    <a aria-label="Open full-size slide: Fast CP decomposition using KRVS" href="assets/images/research-slides/tensors-05.webp" rel="noopener noreferrer" target="_blank"><img alt="Fast CP decomposition using KRVS" loading="lazy" src="assets/images/research-slides/tensors-05.webp"/></a>
+                    <figcaption>Fast CP decomposition using KRVS<a href="assets/images/research-slides/tensors-05.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="5">
+                    <a aria-label="Open full-size slide: CP decomposition on COIL-100 images" href="assets/images/research-slides/tensors-06.webp" rel="noopener noreferrer" target="_blank"><img alt="CP decomposition on COIL-100 images" loading="lazy" src="assets/images/research-slides/tensors-06.webp"/></a>
+                    <figcaption>CP decomposition on COIL-100 images<a href="assets/images/research-slides/tensors-06.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                  <figure class="carousel-slide" data-slide-index="6">
+                    <a aria-label="Open full-size slide: CP decomposition accuracy comparison" href="assets/images/research-slides/tensors-07.webp" rel="noopener noreferrer" target="_blank"><img alt="CP decomposition accuracy comparison" loading="lazy" src="assets/images/research-slides/tensors-07.webp"/></a>
+                    <figcaption>CP decomposition accuracy comparison<a href="assets/images/research-slides/tensors-07.webp" rel="noopener noreferrer" target="_blank">View full size ↗</a></figcaption>
+                  </figure>
+                </div>
+                <div class="carousel-toolbar">
+                  <button aria-label="Previous slide" class="carousel-nav" data-carousel-prev="" type="button">‹ <span>Previous</span></button>
+                  <div aria-label="Select slide" class="carousel-pips" role="group">
+                    <button aria-label="Show slide 1: Tucker decomposition" class="carousel-pip" data-slide-to="0" type="button"></button>
+                    <button aria-label="Show slide 2: RKVS-based Tucker method" class="carousel-pip" data-slide-to="1" type="button"></button>
+                    <button aria-label="Show slide 3: Tucker accuracy" class="carousel-pip" data-slide-to="2" type="button"></button>
+                    <button aria-label="Show slide 4: CP decomposition" class="carousel-pip" data-slide-to="3" type="button"></button>
+                    <button aria-label="Show slide 5: KRVS-based CP method" class="carousel-pip" data-slide-to="4" type="button"></button>
+                    <button aria-label="Show slide 6: CP reconstruction" class="carousel-pip" data-slide-to="5" type="button"></button>
+                    <button aria-label="Show slide 7: CP accuracy" class="carousel-pip" data-slide-to="6" type="button"></button>
+                  </div>
+                  <span aria-live="polite" class="carousel-position" data-carousel-position="">1 / 7</span>
+                  <button aria-label="Next slide" class="carousel-nav" data-carousel-next="" type="button"><span>Next</span> ›</button>
+                </div>
+              </div>
+            </section>
+            <h3>Representative contributions</h3>
+            <ul>
+              <li>Khatri–Rao volume sampling for scalable CP decomposition.</li>
+              <li>Rescaled Kronecker volume sampling for scalable Tucker decomposition.</li>
+              <li>Probabilistic analysis, unbiased updates, and runtime–accuracy evaluation.</li>
+            </ul>
+            <p><strong>Outcomes:</strong> <a href="publications.html#m1">M1</a>, <a href="publications.html#m2">M2</a>.</p>
+          </article>
+          <footer class="footer">© <span id="year">2026</span> Gopal Sai Krishna Chamarthi · Design adapted from <a href="https://html5up.net/editorial">Editorial by HTML5 UP</a> · <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</footer>
+        </div>
+      </main>
+    </div>
+    <script defer="" src="assets/js/site.js"></script>
+  </body>
+</html>
